@@ -2,6 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Cinnamon Grand Colombo</title>
    </head>
    <body bgcolor="#fff8f0" text="#2f2f2f">
@@ -11,26 +12,29 @@
          <h3>Your Urban Sanctuary in the Heart of Colombo</h3>
          <hr width="80%">
       </center>
+
       <!-- Navigation --> 
-      <table width="100%" border="0" bgcolor="#f2e8dc">
+      <table width="100%" border="0" bgcolor="#f2e8dc" cellpadding="10" cellspacing="0">
          <tr>
-            <td><a href="#home">🏠 Home</a></td>
-            <td><a href="#rooms">🛏️ Rooms</a></td>
-            <td><a href="#dining">🍽️ Dining</a></td>
-            <td><a href="#facilities">💆 Facilities</a></td>
-            <td><a href="#gallery">🖼️ Gallery</a></td>
-            <td><a href="#contact">📞 Contact</a></td>
+            <td align="center"><a href="#home">🏠 Home</a></td>
+            <td align="center"><a href="#rooms">🛏️ Rooms</a></td>
+            <td align="center"><a href="#dining">🍽️ Dining</a></td>
+            <td align="center"><a href="#facilities">💆 Facilities</a></td>
+            <td align="center"><a href="#gallery">🖼️ Gallery</a></td>
+            <td align="center"><a href="#contact">📞 Contact</a></td>
          </tr>
       </table>
       <hr>
+
       <!-- Home -->
       <a name="home"></a>
       <center>
          <h2>Experience True Luxury</h2>
          <p> Nestled in the heart of Sri Lanka’s bustling capital, Cinnamon Grand Colombo offers 5-star indulgence with iconic hospitality and unforgettable experiences. </p>
-         <img src="src/cinnamon-front-view.jpg" alt="Cinnamon Grand Colombo" width="35%">
+         <img src="src/cinnamon-front-view.jpg" alt="Cinnamon Grand Colombo" style="width:90%; max-width:600px; height:auto;">
       </center>
       <hr>
+
       <!-- Rooms -->
       <a name="rooms"></a>
       <h2>🛏️ Our Rooms & Suites</h2>
@@ -41,6 +45,7 @@
          <li>Presidential Suite – Ultimate luxury with personalized service</li>
       </ul>
       <hr>
+
       <!-- Dining -->
       <a name="dining"></a>
       <h2>🍽️ Dining Experiences</h2>
@@ -52,10 +57,11 @@
          <li>Cheers Pub – British-style gastropub</li>
       </ol>
       <hr>
+
       <!-- Facilities -->
       <a name="facilities"></a>
       <h2>💆 World-Class Facilities</h2>
-      <table border="1" cellpadding="10">
+      <table border="1" cellpadding="10" width="100%" style="border-collapse: collapse;">
          <tr>
             <th>Facility</th>
             <th>Description</th>
@@ -74,20 +80,26 @@
          </tr>
       </table>
       <hr>
+
       <!-- Gallery -->
       <a name="gallery"></a>
       <h2>🖼️ Gallery</h2>
       <p>Take a visual tour of Cinnamon Grand:</p>
-      <table border="0">
-         <tr>
-            <td><img src="src/hotel-room.jpg" width="300" alt="Hotel Room"></td>
-            <td><img src="src/dining-area.jpg" width="300" alt="Dining Area"></td>
-            <td><img src="src/pool-area.jpg" width="300" alt="Pool Area"></td>
-            <td><img src="src/cinnamon.jpg" width="300" alt="Cinnamon"></td>
-            <td><img src="src/ballroom.jpg" width="300" alt="Ballroom"></td>
-         </tr>
-      </table>
+
+      <!-- Break gallery images into rows to prevent horizontal scroll -->
+      <center>
+         <table border="0" cellpadding="5" cellspacing="0" width="100%" style="table-layout: fixed;">
+            <tr>
+               <td><img src="src/hotel-room.jpg" alt="Hotel Room" style="width:100%; max-width:300px; height:auto;"></td>
+               <td><img src="src/dining-area.jpg" alt="Dining Area" style="width:100%; max-width:300px; height:auto;"></td>
+               <td><img src="src/pool-area.jpg" alt="Pool Area" style="width:100%; max-width:300px; height:auto;"></td>
+               <td><img src="src/cinnamon.jpg" alt="Cinnamon" style="width:100%; max-width:300px; height:auto;"></td>
+               <td><img src="src/ballroom.jpg" alt="Ballroom" style="width:100%; max-width:620px; height:auto;"></td>
+            </tr>
+         </table>
+      </center>
       <hr>
+
       <!-- Contact -->
       <a name="contact"></a>
       <h2>📞 Contact Us</h2>
@@ -96,11 +108,15 @@
       <p><b>Email:</b> info@cinnamonhotels.com</p>
       <form>
          <h3>Send Us a Message</h3>
-         Name: <input type="text" name="name"><br><br> Email: <input type="email" name="email"><br><br> Message:<br> 
-         <textarea name="message" rows="5" cols="40"></textarea>
-         <br><br> <input type="submit" value="Send"> 
+         Name: <input type="text" name="name" style="width: 90%; max-width: 400px;"><br><br> 
+         Email: <input type="email" name="email" style="width: 90%; max-width: 400px;"><br><br> 
+         Message:<br> 
+         <textarea name="message" rows="5" cols="40" style="width: 90%; max-width: 400px;"></textarea>
+         <br><br> 
+         <input type="submit" value="Send"> 
       </form>
       <hr>
+
       <!-- Footer --> 
       <center>
          <p>&copy; 2025 Cinnamon Grand Colombo | Designed for Web Design & Publishing Module</p>
